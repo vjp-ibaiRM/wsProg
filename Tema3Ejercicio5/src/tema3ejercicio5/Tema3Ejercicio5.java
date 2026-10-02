@@ -20,16 +20,16 @@ public class Tema3Ejercicio5 {
         int num;//declaramos variables y escaner
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Introduzca el primer numero:");
+        System.out.println("Introduzca un numero:");
         num=sc.nextInt();//pedimos los numeros
         
-        int par=0;
+        int par=0;//creamos el booleano par
         
-        if(par==(num/2)%0){
+        if(par==num%2){
+            //comparamos si el resto del número partido de 2 es 0
             System.out.println("El numero "+num+" es par");
-        }else{
+        }else{//mostramos en caso de si coincide o no
             System.out.println("El numero "+num+" es impar");
         }
     }
-    
 }

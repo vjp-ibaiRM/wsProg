@@ -16,11 +16,10 @@ public class Tema3Ejercicio13 {
     public static void main(String[] args) {
         // TODO code application logic here
         int i=11;//creamos la variable de control de flujo
-        while (i>=0 && i<33) {            
+        while (i<133) {
             i++;//el while hasta que sea 33
             if (i%2==0) {//si es par, la imprime
                 System.out.println(i);
-                i++;//y que siga subiendo
             }
         }
     }

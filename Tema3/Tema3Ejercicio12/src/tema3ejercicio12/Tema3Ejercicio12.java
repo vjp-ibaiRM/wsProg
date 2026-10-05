@@ -19,9 +19,8 @@ public class Tema3Ejercicio12 {
         do {
             i++;//la vamos aumentando
             if (i%2==0) {//si es par
-                System.out.println(i);
-                i++;//lo muestra y sigue aumentando
-            }//aumenta de 1 en 1 hasta 33
-        } while (i<33);
+                System.out.println(i);//lo muestra
+            }//aumenta de 1 en 1 hasta 133
+        } while (i<133);
     }
 }

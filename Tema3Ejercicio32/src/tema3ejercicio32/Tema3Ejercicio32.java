@@ -51,11 +51,14 @@ public class Tema3Ejercicio32 {
             //si alguno no coincide y da negativo
             if (mesSo<0) {
                 mesSo=mesSo+12;
+                anioSo--;
+            }//los ajustamos
+            if (diaSo<0) {
+                diaSo=diaSo+30;
                 mesSo--;
             }
             
             System.out.println("Su edad exacta es de "+anioSo+" anios, "+mesSo+" meses y "+diaSo+" dias.");
-        } while (diaSo<30);
+        } while (diaAc==0);//y lo mostramos
     }
-    
 }

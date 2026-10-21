@@ -29,10 +29,10 @@ public class T4Ej6 {
             }
         } while (nota<=0 && nota>=10);
         //llamamos al metodo
-        notaCalificada(nota);
+        calificarNota(nota);
     }
     
-    public static void notaCalificada(int nota){
+    public static void calificarNota(int nota){
         switch (nota) {//aquí el método
             case 0, 1, 2, 3, 4 -> //con un switch que es más fácil
                 System.out.println("Suspenso.");
